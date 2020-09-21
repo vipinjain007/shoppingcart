@@ -1,0 +1,51 @@
+{
+  "customerTypes": [
+    {
+      "id": "001",
+      "type": "Regular",
+      "discountSlabs": [
+        {
+          "rangeMin": "0",
+          "rangeMax": "5000",
+          "discPerc": "0"
+        },
+        {
+          "rangeMin": "5000",
+          "rangeMax": "10000",
+          "discPerc": "10"
+        },
+        {
+          "rangeMin": "10000",
+          "rangeMax": "",
+          "discPerc": "20"
+        }
+      ]
+    },
+    {
+      "id": "002",
+      "type": "Premium",
+      "discountSlabs": [
+        {
+          "rangeMin": "0",
+          "rangeMax": "4000",
+          "discPerc": "10"
+        },
+        {
+          "rangeMin": "4000",
+          "rangeMax": "8000",
+          "discPerc": "15"
+        },
+        {
+          "rangeMin": "8000",
+          "rangeMax": "12000",
+          "discPerc": "20"
+        },
+        {
+          "rangeMin": "12000",
+          "rangeMax": "",
+          "discPerc": "30"
+        }
+      ]
+    }
+  ]
+}
